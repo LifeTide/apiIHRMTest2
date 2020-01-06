@@ -1,0 +1,15 @@
+2020-01-06 10:42:44,835 INFO [root] [__init__.py(<module>:8)] - TEST日志器能不能正常工作
+2020-01-06 10:42:45,355 INFO [root] [login.py(test_login:31)] - 登录成功接口返回的数据为：{'success': True, 'data': 'fbc7e31e-dd94-4c14-8af6-23e30e8861f0', 'message': '操作成功！', 'code': 10000}
+2020-01-06 10:42:45,356 INFO [root] [login.py(test_login:39)] - 保存的令牌是：{'Authorization': 'Bearer fbc7e31e-dd94-4c14-8af6-23e30e8861f0', 'Content-Type': 'application/json'}
+2020-01-06 10:42:45,431 INFO [root] [test_emp.py(test01_add_emp:31)] - 添加员工接口返回数据为：{'success': False, 'data': None, 'message': '抱歉，系统繁忙，请稍后重试！', 'code': 99999}
+2020-01-06 10:42:45,501 INFO [root] [test_emp.py(test02_query_emp:45)] - 查询员工接口返回数据为：{'success': False, 'data': None, 'message': '抱歉，系统繁忙，请稍后重试！', 'code': 99999}
+2020-01-06 10:42:45,597 INFO [root] [test_emp.py(test03_modify_emp:55)] - 修改员工接口的返回数据为：{'success': False, 'data': None, 'message': '抱歉，系统繁忙，请稍后重试！', 'code': 99999}
+2020-01-06 10:42:45,661 INFO [root] [test_emp.py(test04_delete_emp:65)] - 删除员工接口的返回数据为：{'success': False, 'data': None, 'message': '抱歉，系统繁忙，请稍后重试！', 'code': 99999}
+2020-01-06 10:43:04,828 INFO [root] [__init__.py(<module>:8)] - TEST日志器能不能正常工作
+2020-01-06 10:43:05,304 INFO [root] [login.py(test_login:31)] - 登录成功接口返回的数据为：{'message': '操作成功！', 'code': 10000, 'success': True, 'data': '8e5b8d31-4cde-48cc-8421-5c1dfcdc922d'}
+2020-01-06 10:43:05,305 INFO [root] [login.py(test_login:39)] - 保存的令牌是：{'Authorization': 'Bearer 8e5b8d31-4cde-48cc-8421-5c1dfcdc922d', 'Content-Type': 'application/json'}
+2020-01-06 10:43:05,380 INFO [root] [test_emp.py(test01_add_emp:31)] - 添加员工接口返回数据为：{'message': '操作成功！', 'code': 10000, 'success': True, 'data': {'id': '1214014494258581504'}}
+2020-01-06 10:43:05,381 INFO [root] [test_emp.py(test01_add_emp:37)] - 员工ID：1214014494258581504
+2020-01-06 10:43:05,454 INFO [root] [test_emp.py(test02_query_emp:45)] - 查询员工接口返回数据为：{'message': '操作成功！', 'code': 10000, 'success': True, 'data': {'roleIds': [], 'mobile': '17365655750', 'createTime': None, 'workingCity': None, 'enableState': 1, 'formOfEmployment': 1, 'username': '浮生一道白15', 'timeOfEntry': '2019-12-02T00:00:00.000+0000', 'companyName': '传智播客', 'departmentName': '测试', 'staffPhoto': None, 'password': '01ec258063fd47cf09924bce1b5e9907', 'id': '1214014494258581504', 'workNumber': '1234', 'formOfManagement': None, 'departmentId': '1210411411066695680', 'correctionTime': '2019-12-15T16:00:00.000+0000', 'inServiceStatus': None, 'companyId': '1'}}
+2020-01-06 10:43:05,530 INFO [root] [test_emp.py(test03_modify_emp:55)] - 修改员工接口的返回数据为：{'message': '操作成功！', 'code': 10000, 'success': True, 'data': {'id': '1214014494258581504'}}
+2020-01-06 10:43:05,610 INFO [root] [test_emp.py(test04_delete_emp:65)] - 删除员工接口的返回数据为：{'message': '操作成功！', 'code': 10000, 'success': True, 'data': None}
